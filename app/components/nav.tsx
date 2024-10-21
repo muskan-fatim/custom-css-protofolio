@@ -44,11 +44,11 @@ export default function Navbar() {
  className={`${styles['mobile-menu']} ${isOpen ? styles['open'] : ''}`}>
       
         <div className={styles['mobile-menu-content']}>
-          <a href="/" className="block text-white hover:text-gray-300">Home</a>
-          <a href="/about" className="block text-white hover:text-gray-300">About</a>
-          <a href="/skill" className="block text-white hover:text-gray-300">Skills</a>
-          <a href="/contact" className="block text-white hover:text-gray-300">Contact</a>
-          <a href="/project" className="block text-white hover:text-gray-300">Project</a>
+          <a href="/" className="navlinks">Home</a>
+          <a href="/about" className="navlinks">About</a>
+          <a href="/skill" className="navlinks">Skills</a>
+          <a href="/contact" className="navlinks">Contact</a>
+          <a href="/project" className="navlinks">Project</a>
         </div>
       </div>
     </nav>
