@@ -457,7 +457,8 @@
 }
 
 .navbar-link {
-  transition: color 0.2s; /* hover:text-gray-300 transition duration-200 */
+  transition: color 0.2s;
+  color:white/* hover:text-gray-300 transition duration-200 */
 }
 
 .navbar-link:hover {
