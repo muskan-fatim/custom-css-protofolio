@@ -6,13 +6,13 @@ export default function Projects() {
       title: "Joke Generator app",
       description: "A Joke Generator application built with NextJs and Tailwind CSS.",
       link: "https://7-joke-genrator.vercel.app/",
-      image: "/joke.png",
+      image: "/joke.PNG",
     },
     {
       title: "Digital Clock",
       description: "My personal digital clock website built with Nextjs and Tailwind CSS.",
       link: "https://6-digital-clock.vercel.app/",
-      image: "/image.PNG",
+      image: "/image.png",
     },
     {
       title: "Resume Generator",
