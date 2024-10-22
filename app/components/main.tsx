@@ -32,7 +32,7 @@ export default function HeroSection() {
           <a href="https://www.linkedin.com/in/muskan-fatima-ab90732b7/" className={styles.linkButton}>
             Talk on LinkedIn
           </a>
-          <a href="mailto:muskan@example.com" className={styles.linkButton}>
+          <a href="mushiifatima3456@gmail.com" className={styles.linkButton}>
             Contact via Email
           </a>
         </div>
