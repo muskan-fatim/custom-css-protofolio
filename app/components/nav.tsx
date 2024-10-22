@@ -21,7 +21,7 @@ export default function Navbar() {
             alt="Logo"
             height={50}
             width={70}
-            className="rounded transform transition-transform duration-500 ease-in-out hover:scale-110"
+            className={styles.navimage}
           />
         </div>
         <div className={styles['navbar-links']}>
@@ -33,9 +33,9 @@ export default function Navbar() {
         </div>
         <div className={styles['menu-button']} onClick={toggleMenu}>
           {isOpen ? (
-            <XIcon className="h-6 w-6" />
+            <XIcon className="set"/>
           ) : (
-            <MenuIcon className="h-6 w-6" />
+            <MenuIcon className="set"/>
           )}
         </div>
       </div>
